@@ -66,9 +66,3 @@ export const certifications: Certification[] = [
     note: "GitHub",
   },
 ];
-
-export type Achievement = {
-  id: string;
-  title: string;
-  note?: string;
-};
