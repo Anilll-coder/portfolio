@@ -1,0 +1,28 @@
+export const profile = {
+  name: "Anil Kumar Pasupuleti",
+  shortName: "Anil",
+  initials: "AP",
+  role: "Software Development • AI/ML • Full-Stack Development",
+  tagline: "B.Tech Engineering Student",
+  statement: "I build intelligent software systems and developer-focused tools.",
+  location: "Hyderabad, Telangana, India",
+  cgpa: "9.04 / 10",
+  email: "anilkumar9875181@gmail.com",
+  phone: "+91-6305368098",
+  links: {
+    github: "https://github.com/Anilll-coder",
+    leetcode: "https://leetcode.com/u/Anil_kumar34215/",
+    nextwork: "https://nextwork.ai/portfolio/lighthearted_brown_festive_penguin",
+  },
+  currentlyBuilding: "CodeOrbit",
+  interests: [
+    "Software Engineering",
+    "Artificial Intelligence",
+    "Machine Learning",
+    "Developer Tools",
+    "Full-Stack Development",
+    "Cloud Computing",
+    "Code Analysis",
+    "AI-assisted Development",
+  ],
+} as const;
