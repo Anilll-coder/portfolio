@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import { Section, SectionHeading } from "@/components/ui/Section";
-import { education, achievements } from "@/data/education";
+import { education } from "@/data/education";
 import { fadeUp, staggerContainer, staggerItem, viewportOnce } from "@/lib/motion";
 
 export function Education() {
@@ -57,23 +57,3 @@ export function Education() {
     </Section>
   );
 }
-
-// function AchievementsBlock() {
-//   return (
-//     <div className="sm:col-span-2">
-//       <h3 className="font-mono text-xs uppercase tracking-[0.2em] text-ink-faint">Achievements</h3>
-//       <ul className="mt-4 grid grid-cols-1 gap-3 sm:grid-cols-2">
-//         {achievements.map((a) => (
-//           <li
-//             key={a.id}
-//             className="rounded-lg border border-border bg-surface px-5 py-4 text-sm text-ink-muted"
-//           >
-//             <span className="block text-ink">{a.title}</span>
-//             {a.note && <span className="mt-1 block text-xs text-ink-faint">{a.note}</span>}
-//           </li>
-//         ))}
-//       </ul>
-//     </div>
-//   );
-// }
-
